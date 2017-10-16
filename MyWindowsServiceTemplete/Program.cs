@@ -17,7 +17,7 @@ namespace MyWindowsServiceTemplete
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new Service1()
+                new MySampleService()
             };
             ServiceBase.Run(ServicesToRun);
         }
